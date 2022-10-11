@@ -11,10 +11,4 @@ public class Src_Move : MonoBehaviour
     {
         transform.DOMove(targetPos, 2).SetLoops(-1, LoopType.Yoyo).SetEase(Ease.Linear);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }
