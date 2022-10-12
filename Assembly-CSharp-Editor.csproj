@@ -36,9 +36,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Editor\EnumLabelAttribute.cs" />
      <Compile Include="Assets\Editor\ToolTagLayerMaker.cs" />
      <Compile Include="Assets\Editor\ChineseLabelAttribute.cs" />
-     <Compile Include="Assets\Editor\EnumLabelAttribute.cs" />
      <Compile Include="Assets\Editor\AlignTool.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.3f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

@@ -31,7 +31,7 @@ public class Src_PhysicsCube : MonoBehaviour
         {
             SelfDestroy();
         }
-        else if (!m_isDestroy && m_rb != null)
+        else if (!m_isDestroy && m_rb != null && m_rb.useGravity)
         {
             if (dis > Src_PhysicsCaveEntry.instance.circleCave.minRadius && this.gameObject.layer != TagLayer.layer_Default)
             {
@@ -50,12 +50,11 @@ public class Src_PhysicsCube : MonoBehaviour
                 if (changeTime > 3)
                 {
                     changeTime = 0;
-                    Destroy(m_rb);
-                    m_rb = null;
+                    EnableKinematic();
                 }
             }
         }
-        else if (m_rb == null)
+        else if (m_rb == null || m_rb.isKinematic)
         {
             if (dis <= Src_PhysicsCaveEntry.instance.circleCave.minRadius)
             {
@@ -75,8 +74,7 @@ public class Src_PhysicsCube : MonoBehaviour
     public virtual void Init()
     {
         m_isDestroy = false;
-        Destroy(m_rb);
-        m_rb = null;
+        EnableKinematic();
     }
 
     public void SelfDestroy()
@@ -91,10 +89,17 @@ public class Src_PhysicsCube : MonoBehaviour
         if (m_rb == null)
         {
             m_rb = this.gameObject.AddComponent<Rigidbody>();
+            m_rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
         }
         m_rb.isKinematic = false;
         m_rb.useGravity = true;
-        m_rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
+    }
+
+    public void EnableKinematic()
+    {
+        if (m_rb == null) return;
+        m_rb.isKinematic = true;
+        m_rb.useGravity = false;
     }
 
     // public void ChangeManyBlock()
@@ -135,15 +140,6 @@ public class Src_PhysicsCube : MonoBehaviour
             if (block.gameObject.activeSelf)
             {
                 block.Init();
-                //统计所有的方块
-                // Vector2 sign = new Vector2(block.transform.position.x, block.transform.position.z);
-                // string key = $"{Mathf.FloorToInt(sign.x * 100)}_{Mathf.FloorToInt(sign.y * 100)}";
-                // block.m_sign = key;
-                // if (!blockDictionary.ContainsKey(key))
-                // {
-                //     blockDictionary.Add(key, new List<Src_PhysicsCube>());
-                // }
-                // blockDictionary[key].Add(block);
             }
         }
         // SortBlockDictionary();
@@ -155,32 +151,6 @@ public class Src_PhysicsCube : MonoBehaviour
         blockSize = s;
         blockScale = blocks[0].transform.lossyScale;
         blockScaleSize = tmpBlockSize;
-
-        // foreach (var item in blockDictionary)
-        // {
-        //     item.Value[0].EnableGravity();
-        // }
     }
-
-    // private static void SortBlockDictionary()
-    // {
-    //     foreach (var item in blockDictionary)
-    //     {
-    //         item.Value.Sort((a, b) =>
-    //         {
-    //             Print.Log("---------------->sort a.name : " + a.name + ", b.name: " + b.name);
-    //             return (a.transform.position.y - b.transform.position.y) >= 0 ? 1 : -1;
-    //         });
-    //     }
-    //     foreach (var item in blockDictionary)
-    //     {
-    //         Print.Log("---------------->sort key : " + item.Key);
-    //         for (int i = 0; i < item.Value.Count; i++)
-    //         {
-    //             Print.Log("sort value: " + item.Value[i].transform.position);
-    //         }
-    //         // return;
-    //     }
-    // }
 
 }
