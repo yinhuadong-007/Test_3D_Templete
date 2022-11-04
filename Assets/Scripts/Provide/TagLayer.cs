@@ -11,6 +11,8 @@ public class TagLayer
     public const string tag_MainCamera = "MainCamera";
     public const string tag_Player = "Player";
     public const string tag_GameController = "GameController";
+    public const string tag_Rigidbodys = "Rigidbodys";
+    public const string tag_Ground = "Ground";
 
     private static int _layer_Default = -1;
     public static int layer_Default { get { if (_layer_Default == -1){_layer_Default = LayerMask.NameToLayer("Default");}  return _layer_Default; } }
@@ -35,4 +37,7 @@ public class TagLayer
 
     private static int _layer_Plane = -1;
     public static int layer_Plane { get { if (_layer_Plane == -1){_layer_Plane = LayerMask.NameToLayer("Plane");}  return _layer_Plane; } }
+
+    private static int _layer_Body = -1;
+    public static int layer_Body { get { if (_layer_Body == -1){_layer_Body = LayerMask.NameToLayer("Body");}  return _layer_Body; } }
 }
