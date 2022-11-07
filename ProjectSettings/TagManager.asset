@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Rigidbodys
   - Ground
+  - Goods
   layers:
   - Default
   - TransparentFX
