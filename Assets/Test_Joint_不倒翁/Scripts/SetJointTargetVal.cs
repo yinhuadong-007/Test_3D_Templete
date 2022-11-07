@@ -9,7 +9,7 @@ public class SetJointTargetVal : MonoBehaviour
     public ConfigurableJoint joint;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         StartLocalRotation = transform.rotation;
 
@@ -19,6 +19,6 @@ public class SetJointTargetVal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

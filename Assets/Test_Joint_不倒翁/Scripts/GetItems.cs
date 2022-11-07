@@ -1,4 +1,4 @@
-namespace TestRagDoll
+namespace TestConfigJointDoll
 {
     using System.Collections;
     using System.Collections.Generic;

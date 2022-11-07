@@ -1,39 +1,42 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class TestWalk : MonoBehaviour
+namespace TestRagDoll
 {
-    float timer;
-    bool flag = false;
-    Rigidbody rigidbody;
-    // Start is called before the first frame update
-    void Start()
+    using System.Collections;
+    using System.Collections.Generic;
+    using UnityEngine;
+
+    public class TestWalk : MonoBehaviour
     {
-        rigidbody = GetComponent<Rigidbody>();
-    }
-
-    // Update is called once per frame
-    private void Update()
-    {
-        timer -= Time.deltaTime;
-        if (timer <= 0)
+        float timer;
+        bool flag = false;
+        Rigidbody rigidbody;
+        // Start is called before the first frame update
+        void Start()
         {
-            timer = 0.3f;
-            flag = !flag;
+            rigidbody = GetComponent<Rigidbody>();
         }
-        if (Input.GetKey(KeyCode.P))
+
+        // Update is called once per frame
+        private void Update()
         {
-            if (flag)
+            timer -= Time.deltaTime;
+            if (timer <= 0)
             {
-                rigidbody.AddTorque(Vector3.right * Time.deltaTime * 50000, ForceMode.Acceleration);
+                timer = 0.3f;
+                flag = !flag;
             }
-            else
+            if (Input.GetKey(KeyCode.P))
             {
-                rigidbody.AddTorque(-Vector3.right * Time.deltaTime * 50000, ForceMode.Acceleration);
-            }
+                if (flag)
+                {
+                    rigidbody.AddTorque(Vector3.right * Time.deltaTime * 50000, ForceMode.Acceleration);
+                }
+                else
+                {
+                    rigidbody.AddTorque(-Vector3.right * Time.deltaTime * 50000, ForceMode.Acceleration);
+                }
 
+            }
         }
-    }
 
+    }
 }
