@@ -18,13 +18,16 @@ namespace TestConfigJointDoll
         public float m_gravityFactor = 0;                                                    //模拟额外重力的因子
         // [HideInInspector]
         public float m_gravityForceMultiplayer = 4000;
-        public float m_headBalanceHeight = 1.9f;               //头部在平衡状态下到地面的距离
+        public float m_headBalanceHeight = 1.9f;               //静止时头部在平衡状态下到地面的距离
+        public float m_moveHeadBalanceHeight = 1.9f;               //移动时头部在平衡状态下到地面的距离
 
         JointAnimationMgr m_jointAnimationMgr;
         Rigidbody[] m_rigids;
         Rigidbody m_head;
         BodyDetect m_bodyDetect;
         Player m_player;
+
+        public float m_curHeadBalanceHeight;
 
         void Awake()
         {
@@ -39,12 +42,13 @@ namespace TestConfigJointDoll
             m_head = m_jointAnimationMgr.m_head;
             m_StandUpForce = GetTotalMassInChild();
             Debug.Log("m_StandUpForce= " + m_StandUpForce);
+            m_curHeadBalanceHeight = m_headBalanceHeight;
         }
 
 
         void FixedUpdate()
         {
-            m_StandUpMultiForce = m_UpMuliForceFadeSpeed * (m_headBalanceHeight - m_bodyDetect.mheadDistanceToGround);
+            m_StandUpMultiForce = m_UpMuliForceFadeSpeed * (m_curHeadBalanceHeight - m_bodyDetect.mheadDistanceToGround);
         }
 
         /// <summary>

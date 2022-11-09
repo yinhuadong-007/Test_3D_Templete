@@ -1,18 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
-public class ChineseLabel : MonoBehaviour
+public class ChineseLabel : HeaderAttribute
 {
-    // Start is called before the first frame update
-    void Start()
+    public ChineseLabel(string header) : base(header)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

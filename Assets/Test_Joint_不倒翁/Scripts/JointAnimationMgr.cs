@@ -61,6 +61,7 @@ namespace TestConfigJointDoll
             && m_player.m_Movement.m_state != State.forwardDown
             && m_CanStepCross)
             {
+                m_player.m_StayStanding.m_curHeadBalanceHeight = m_player.m_StayStanding.m_moveHeadBalanceHeight;
                 timer -= Time.deltaTime;
                 if (timer <= 0 && angle > m_LegAngle)
                 {
@@ -72,6 +73,7 @@ namespace TestConfigJointDoll
             else
             {
                 StopAnimation();
+                StartCoroutine(DelayDoStand());
             }
 
             // timer -= Time.deltaTime;
@@ -81,6 +83,12 @@ namespace TestConfigJointDoll
             //     m_IsleftSideForward = !m_IsleftSideForward;
             // }
             // RunAnimation();
+        }
+
+        IEnumerator DelayDoStand()
+        {
+            yield return new WaitForSeconds(0.05f);
+            m_player.m_StayStanding.m_curHeadBalanceHeight = m_player.m_StayStanding.m_headBalanceHeight;
         }
         /// <summary>
         /// 控制人物的跑步

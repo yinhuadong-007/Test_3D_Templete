@@ -313,12 +313,12 @@ ConfigurableJoint:
   m_RotationDriveMode: 0
   m_AngularXDrive:
     serializedVersion: 3
-    positionSpring: 500
+    positionSpring: 1000
     positionDamper: 0
     maximumForce: 3.4028233e+38
   m_AngularYZDrive:
     serializedVersion: 3
-    positionSpring: 0
+    positionSpring: 1000
     positionDamper: 0
     maximumForce: 3.4028233e+38
   m_SlerpDrive:
@@ -374,7 +374,7 @@ MonoBehaviour:
     bodyDirection: 0
     forwardForceMultiplier: 0
     backForceMultiplier: 0
-    rotateAngle: 20
+    rotateAngle: 15
     isNegate: 0
 --- !u!114 &31001130
 MonoBehaviour:
@@ -971,12 +971,12 @@ ConfigurableJoint:
   m_RotationDriveMode: 0
   m_AngularXDrive:
     serializedVersion: 3
-    positionSpring: 900
+    positionSpring: 5000
     positionDamper: 0
     maximumForce: 3.4028233e+38
   m_AngularYZDrive:
     serializedVersion: 3
-    positionSpring: 900
+    positionSpring: 5000
     positionDamper: 0
     maximumForce: 3.4028233e+38
   m_SlerpDrive:
@@ -1092,7 +1092,7 @@ MonoBehaviour:
     bodyDirection: 0
     forwardForceMultiplier: 0
     backForceMultiplier: 0
-    rotateAngle: 60
+    rotateAngle: 45
     isNegate: 1
 --- !u!114 &86032514
 MonoBehaviour:
@@ -1402,7 +1402,7 @@ MonoBehaviour:
   m_jumpForce: 10000
   m_HorizonalWalkForce: 1000
   m_jumpForceMultiplier: 2500
-  m_torsoForce: 800
+  m_torsoForce: 500
   m_Down_Vertical: 20000
   m_Down_MoveForce: 5000
   m_face: 0
@@ -1440,6 +1440,8 @@ MonoBehaviour:
   m_gravityFactor: 0
   m_gravityForceMultiplayer: 4000
   m_headBalanceHeight: 8.4
+  m_moveHeadBalanceHeight: 9
+  m_curHeadBalanceHeight: 0
 --- !u!114 &497464473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1491,9 +1493,9 @@ GameObject:
   - component: {fileID: 526269538}
   - component: {fileID: 526269541}
   - component: {fileID: 526269544}
-  - component: {fileID: 526269540}
   - component: {fileID: 526269542}
   - component: {fileID: 526269543}
+  - component: {fileID: 526269545}
   m_Layer: 9
   m_Name: Hand_Left
   m_TagString: Rigidbodys
@@ -1595,18 +1597,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!114 &526269540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526269532}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c36050fd92fc9ce49a8bb8330223b2f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &526269541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1756,6 +1746,18 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &526269545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526269532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92ee7b177bc9adb4abd83198949d1448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &536341416
 GameObject:
   m_ObjectHideFlags: 0
@@ -4402,12 +4404,12 @@ ConfigurableJoint:
   m_RotationDriveMode: 0
   m_AngularXDrive:
     serializedVersion: 3
-    positionSpring: 900
+    positionSpring: 5000
     positionDamper: 0
     maximumForce: 3.4028233e+38
   m_AngularYZDrive:
     serializedVersion: 3
-    positionSpring: 900
+    positionSpring: 5000
     positionDamper: 0
     maximumForce: 3.4028233e+38
   m_SlerpDrive:
@@ -4444,7 +4446,7 @@ MonoBehaviour:
     bodyDirection: 0
     forwardForceMultiplier: 0
     backForceMultiplier: 0
-    rotateAngle: 60
+    rotateAngle: 45
     isNegate: 1
 --- !u!114 &1330568862
 MonoBehaviour:
@@ -5997,12 +5999,12 @@ ConfigurableJoint:
   m_RotationDriveMode: 0
   m_AngularXDrive:
     serializedVersion: 3
-    positionSpring: 150
+    positionSpring: 1000
     positionDamper: 0
     maximumForce: 3.4028233e+38
   m_AngularYZDrive:
     serializedVersion: 3
-    positionSpring: 900
+    positionSpring: 1000
     positionDamper: 0
     maximumForce: 3.4028233e+38
   m_SlerpDrive:
@@ -6058,7 +6060,7 @@ MonoBehaviour:
     bodyDirection: 0
     forwardForceMultiplier: 0
     backForceMultiplier: 0
-    rotateAngle: 20
+    rotateAngle: 15
     isNegate: 0
 --- !u!114 &1823755701
 MonoBehaviour:
@@ -6860,9 +6862,9 @@ GameObject:
   - component: {fileID: 1987004886}
   - component: {fileID: 1987004889}
   - component: {fileID: 1987004892}
-  - component: {fileID: 1987004888}
   - component: {fileID: 1987004890}
   - component: {fileID: 1987004891}
+  - component: {fileID: 1987004893}
   m_Layer: 9
   m_Name: Hand_Right
   m_TagString: Rigidbodys
@@ -6964,18 +6966,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!114 &1987004888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1987004880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c36050fd92fc9ce49a8bb8330223b2f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1987004889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7125,6 +7115,18 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &1987004893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987004880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92ee7b177bc9adb4abd83198949d1448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2077257549
 GameObject:
   m_ObjectHideFlags: 0

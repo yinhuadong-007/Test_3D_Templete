@@ -1,18 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
-public class ChineseLabelAttribute : MonoBehaviour
+[CustomPropertyDrawer(typeof(ChineseLabel))]
+public class ChineseLabelDrawer : PropertyDrawer
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
     {
-        
+        var att = attribute as ChineseLabel;
+        EditorGUI.PropertyField(position, property, new GUIContent(att.header), true);
     }
 }

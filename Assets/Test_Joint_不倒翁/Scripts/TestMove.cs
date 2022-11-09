@@ -85,8 +85,8 @@ public class TestMove : MonoBehaviour
         }
         else
         {
-            // JointVal_Leg_R_2.joint.SetTargetRotationLocal(Quaternion.Euler(0, 0, 0), JointVal_Leg_R_1.StartLocalRotation);
-            // JointVal_Leg_L_2.joint.SetTargetRotationLocal(Quaternion.Euler(0, 0, 0), JointVal_Leg_L_1.StartLocalRotation);
+            JointVal_Leg_R_2.joint.SetTargetRotationLocal(Quaternion.Euler(0, 0, 0), JointVal_Leg_R_1.StartLocalRotation);
+            JointVal_Leg_L_2.joint.SetTargetRotationLocal(Quaternion.Euler(0, 0, 0), JointVal_Leg_L_1.StartLocalRotation);
         }
     }
 
