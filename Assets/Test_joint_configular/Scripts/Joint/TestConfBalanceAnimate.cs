@@ -9,6 +9,8 @@ public class TestConfBalanceAnimate : MonoBehaviour
     [Tooltip("反向旋转角度")] public float backRotateAngle;
     [Tooltip("左右是否相反")] public bool isNegate;
 
+    [ChineseLabel("受到的力")] public float forceMultiplier = 0;
+
     protected Rigidbody rig;
     protected Rigidbody hip;
 
@@ -26,7 +28,23 @@ public class TestConfBalanceAnimate : MonoBehaviour
     /// <param name="leftForward"></param>
     public virtual void JointAnimate(Vector3 direction, bool leftForward)
     {
-
+        if ((leftForward && isBodyLeftSide) || (!leftForward && !isBodyLeftSide))
+        {
+            if (direction.z != 0)
+            {
+                direction.z = direction.z > 0 ? 1 : -1;
+            }
+            if (direction.x != 0)
+            {
+                direction.x = direction.x > 0 ? 1 : -1;
+            }
+            if (direction.y != 0)
+            {
+                direction.y = direction.y > 0 ? 1 : -1;
+            }
+            Vector3 euler = new Vector3(direction.z, -direction.x, direction.y) * forwardRotateAngle;
+            jointVal.joint.SetTargetRotationLocal(Quaternion.Euler(euler), jointVal.StartLocalRotation);
+        }
     }
 
     /// <summary>
@@ -35,7 +53,7 @@ public class TestConfBalanceAnimate : MonoBehaviour
     /// <param name="leftForward"></param>
     public virtual void MoveJoint(Vector3 direction, bool leftForward)
     {
-
+        this.rig.AddForce(direction * Time.fixedDeltaTime * forceMultiplier, ForceMode.Acceleration);
     }
 
     /// <summary>
@@ -48,6 +66,11 @@ public class TestConfBalanceAnimate : MonoBehaviour
         {
             jointVal.joint.SetTargetRotationLocal(jointVal.StartLocalRotation, jointVal.StartLocalRotation);
         }
+
+    }
+
+    public virtual void DownJointAnimate()
+    {
 
     }
 

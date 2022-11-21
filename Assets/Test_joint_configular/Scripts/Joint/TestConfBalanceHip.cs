@@ -7,8 +7,8 @@ using UnityEngine;
 /// </summary>
 public class TestConfBalanceHip : TestConfBalanceAnimate
 {
-    [ChineseLabel("每步的距离")] public float m_stepDistance = 2;
-    [ChineseLabel("受到的力")] public float forceMultiplier = 2;
+    // [ChineseLabel("每步的距离")] public float m_stepDistance = 2;
+
     bool lastDir;
 
     /// <summary>
