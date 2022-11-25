@@ -873,14 +873,6 @@
       <Project>{5a6b5e99-108a-14bc-1ca4-c40588972aa1}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="Obi.csproj">
-      <Project>{04ff6c89-f85f-34bf-585a-3fb835745aab}</Project>
-      <Name>Obi</Name>
-    </ProjectReference>
-    <ProjectReference Include="Obi.Editor.csproj">
-      <Project>{b926b4d0-aa49-65e7-e014-824ccf49b5c4}</Project>
-      <Name>Obi.Editor</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
