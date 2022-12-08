@@ -1,11 +1,10 @@
-/Assembly-CSharp-firstpass.csproj
-/OpenFracture.Editor.csproj
 /RuntimeAssembly.csproj
-/ShaderPaint.sln
-/Test_3D_Templete.sln
+/Test_3D_URP_Templete.sln
 /Tests.csproj
 /Library
 /Logs
 /obj
-/Temp
 /Assembly-CSharp.csproj
+/Assembly-CSharp-Editor.csproj
+/OpenFracture.Editor.csproj
+/Temp
