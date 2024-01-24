@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2021_3_3;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_IG;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;OBI_ONI_SUPPORTED;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2021_3_3;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_IG;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;OBI_ONI_SUPPORTED;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -44,6 +44,8 @@
      <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
      <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
      <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+     <None Include="Assets\Plugins\CW\READ ME.txt" />
+     <None Include="Assets\Plugins\CW\Third-Party Notices.txt" />
      <None Include="Assets\Plugins\Demigiant\DOTween\readme.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.3f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -71,12 +73,6 @@
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.3f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterInputModule">
-        <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.3f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterRendererModule">
-        <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.3f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.3f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
@@ -233,9 +229,6 @@
     </Reference>
     <Reference Include="UnityEngine.VideoModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.3f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VirtualTexturingModule">
-        <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.3f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.WindModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.3f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
@@ -810,8 +803,141 @@
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>F:\A-Game\unity-test\Test_3D_Templete\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+        <HintPath>F:\A-Game\unity-test\Test_3D_Templete\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+        <HintPath>F:\A-Game\unity-test\Test_3D_Templete\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+        <HintPath>F:\A-Game\unity-test\Test_3D_Templete\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+        <HintPath>F:\A-Game\unity-test\Test_3D_Templete\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+        <HintPath>F:\A-Game\unity-test\Test_3D_Templete\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+        <HintPath>F:\A-Game\unity-test\Test_3D_Templete\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+        <HintPath>F:\A-Game\unity-test\Test_3D_Templete\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+        <HintPath>F:\A-Game\unity-test\Test_3D_Templete\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+        <HintPath>F:\A-Game\unity-test\Test_3D_Templete\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>F:\A-Game\unity-test\Test_3D_Templete\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+        <HintPath>F:\A-Game\unity-test\Test_3D_Templete\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="LeanCommonPlus.csproj">
+      <Project>{866deebf-c823-4c7d-92c1-c067ccc916ca}</Project>
+      <Name>LeanCommonPlus</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanTouchPlus.csproj">
+      <Project>{b93b1a04-bd2c-cffa-68d3-50d79d925f71}</Project>
+      <Name>LeanTouchPlus</Name>
+    </ProjectReference>
+    <ProjectReference Include="CW.Common.csproj">
+      <Project>{c0aaae55-3061-9165-53c0-703a1fba8e64}</Project>
+      <Name>CW.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanTouch.csproj">
+      <Project>{cb3fba01-5ff1-98d9-96b4-cc26ff3c0607}</Project>
+      <Name>LeanTouch</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanTransition.csproj">
+      <Project>{ef570097-7dbc-c02d-64fc-52337b794ffe}</Project>
+      <Name>LeanTransition</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanCommon.csproj">
+      <Project>{2c22b38e-ae8f-1b50-b12f-e85b734bd3e4}</Project>
+      <Name>LeanCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanGUI.csproj">
+      <Project>{6f27edfb-2464-ca79-7a35-5de3094609af}</Project>
+      <Name>LeanGUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanGUIShapes.csproj">
+      <Project>{35da2ef3-1fca-ea3f-b08b-746da2ef204c}</Project>
+      <Name>LeanGUIShapes</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanTransition.Editor.csproj">
+      <Project>{1a272b24-bc67-c10b-21f8-32e816e9cbf6}</Project>
+      <Name>LeanTransition.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="ParadoxNotion.csproj">
+      <Project>{fc51ac90-640e-7dd3-b95f-3c5cfc084e0f}</Project>
+      <Name>ParadoxNotion</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Feedbacks.TextMeshPro.csproj">
+      <Project>{c1dac62a-13f8-91fd-c874-e83e2ea2e641}</Project>
+      <Name>MoreMountains.Feedbacks.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Lofelt.NiceVibrations.Demo.csproj">
+      <Project>{ae207ae9-ef13-f307-51c3-d7bb9c9ad572}</Project>
+      <Name>Lofelt.NiceVibrations.Demo</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Feedbacks.csproj">
+      <Project>{8c6a0cda-ee84-407f-75ee-a202cc616837}</Project>
+      <Name>MoreMountains.Feedbacks</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Feedbacks.Cinemachine.csproj">
+      <Project>{4194d843-0423-aaf0-47ec-d90b1ff3660a}</Project>
+      <Name>MoreMountains.Feedbacks.Cinemachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Feedbacks.Authorizations.csproj">
+      <Project>{5d965ff7-3ca1-474d-2052-d9a0c52ba58c}</Project>
+      <Name>MoreMountains.Feedbacks.Authorizations</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Tools.Editor.csproj">
+      <Project>{30884c0a-4d6f-0bcc-50ff-005f79ec802e}</Project>
+      <Name>MoreMountains.Tools.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Feedbacks.MMTools.csproj">
+      <Project>{a27a38c1-048d-66ef-2861-345f0e861394}</Project>
+      <Name>MoreMountains.Feedbacks.MMTools</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Tools.csproj">
+      <Project>{69097332-8aef-ed87-3c75-f1cfc75748a1}</Project>
+      <Name>MoreMountains.Tools</Name>
+    </ProjectReference>
+    <ProjectReference Include="Lofelt.NiceVibrations.Editor.csproj">
+      <Project>{9aa17bfc-8259-c86c-bda6-b8a76c34d900}</Project>
+      <Name>Lofelt.NiceVibrations.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Feedbacks.URP.csproj">
+      <Project>{4c767e38-2063-294a-3b0a-def7a163ff8f}</Project>
+      <Name>MoreMountains.Feedbacks.URP</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Feedbacks.PostProcessing.csproj">
+      <Project>{d970f240-0761-aa68-4efc-05106eaeb32d}</Project>
+      <Name>MoreMountains.Feedbacks.PostProcessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Feedbacks.Editor.csproj">
+      <Project>{7fb85ef0-ee84-468c-81d7-ffab44af500c}</Project>
+      <Name>MoreMountains.Feedbacks.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Feedbacks.NiceVibrations.csproj">
+      <Project>{20811cb1-720e-0dcb-ed98-9ddd5f519739}</Project>
+      <Name>MoreMountains.Feedbacks.NiceVibrations</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Feedbacks.HDRP.csproj">
+      <Project>{bda50c92-9488-6bd3-9df0-68da90278ab2}</Project>
+      <Name>MoreMountains.Feedbacks.HDRP</Name>
+    </ProjectReference>
+    <ProjectReference Include="Lofelt.NiceVibrations.csproj">
+      <Project>{881ecd68-d2a4-7d1f-9584-2c657b9e462c}</Project>
+      <Name>Lofelt.NiceVibrations</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
